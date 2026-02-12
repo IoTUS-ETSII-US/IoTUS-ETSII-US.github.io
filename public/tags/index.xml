@@ -1,0 +1,11 @@
+<rss version="2.0">
+    <channel>
+        <title>Tags on My New Hugo Site</title>
+        <link>http://localhost:1313/tags/</link>
+        <description>Recent content in My New Hugo Site</description>
+
+         
+            
+        
+    </channel>
+</rss>
