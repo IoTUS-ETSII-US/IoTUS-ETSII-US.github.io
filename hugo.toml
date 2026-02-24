@@ -1,4 +1,8 @@
 baseURL = 'https://IoTUS-ETSII-US.github.io/'
 languageCode = 'es'
-title = 'My New Hugo Site'
+title = 'IoTUS'
 theme = 'papermod'
+
+[params.label]
+  icon = "/images/logo_transparent.png"
+  iconHeight = 50
