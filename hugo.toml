@@ -1,4 +1,35 @@
 baseURL = 'https://IoTUS-ETSII-US.github.io/'
 languageCode = 'es'
-title = 'My New Hugo Site'
+title = 'IOT'
 theme = 'papermod'
+
+canonifyURLs = true # Esto ayuda a que Hugo convierta rutas relativas en absolutas
+defaultContentLanguage = 'es' # Idioma principal
+
+author = "Departamento de IOT"
+
+[menus]
+  [[menus.main]]
+    name = 'home'
+    url = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'directive'
+    url = '/directive'
+    weight = 20
+  [[menus.main]]
+    name = 'projects'
+    url = '/projects'
+    weight = 30
+  [[menus.main]]
+    name = 'events'
+    url = '/events'
+    weight = 40
+  [[menus.main]]
+    name = 'contact'
+    url = '/contact'
+    weight = 50
+  [[menus.main]]
+    name = 'inscription'
+    url = '/inscription'
+    weight = 60

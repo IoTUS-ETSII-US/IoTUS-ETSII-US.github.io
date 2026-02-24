@@ -1,0 +1,17 @@
+[home]
+other = "Home"
+
+[directive]
+other = "Directive"
+
+[projects]
+other = "Projects"
+
+[events]
+other = "Events"
+
+[contact]
+other = "Contact"
+
+[inscription]
+other = "Inscription"

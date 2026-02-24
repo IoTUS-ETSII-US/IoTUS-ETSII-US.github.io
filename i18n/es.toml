@@ -1,0 +1,17 @@
+[home]
+other = "Inicio"
+
+[directive]
+other = "Directiva"
+
+[projects]
+other = "Proyectos"
+
+[events]
+other = "Eventos"
+
+[contact]
+other = "Contacto"
+
+[inscription]
+other = "Inscripción"
