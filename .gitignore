@@ -1,0 +1,29 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Hugo cache
+/cache/
+/*.html
+
+# Node/npm artifacts (if using npm for theme assets)
+node_modules/
+/package-lock.json
+/yarn.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.log
+
+# Optional: IDE folders
+.vscode/
+.idea/
