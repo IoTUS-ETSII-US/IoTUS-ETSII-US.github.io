@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-# --- Hugo Specific ---
-# Carpeta de salida (donde Hugo genera el sitio estático)
-public/
-# Recursos procesados (imágenes redimensionadas, CSS/JS minificado)
-resources/_gen/
-# Archivos de caché
-.hugo_build.lock
-
-# --- Sistema Operativo ---
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# --- Herramientas de Desarrollo ---
-# Si usas VS Code
-.vscode/
-# Si usas Node.js (por ejemplo, para Tailwind o PostCSS)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.env
-
-# --- Copias de seguridad ---
-*.swp
-*~
-=======
 # Hugo build output
 /public/
 /resources/_gen/
@@ -55,4 +27,3 @@ Thumbs.db
 # Optional: IDE folders
 .vscode/
 .idea/
->>>>>>> 04700266dd1045859476e1bd9e879323c305dba4
