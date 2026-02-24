@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # --- Hugo Specific ---
 # Carpeta de salida (donde Hugo genera el sitio estático)
 public/
@@ -24,3 +25,34 @@ yarn-error.log*
 # --- Copias de seguridad ---
 *.swp
 *~
+=======
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Hugo cache
+/cache/
+/*.html
+
+# Node/npm artifacts (if using npm for theme assets)
+node_modules/
+/package-lock.json
+/yarn.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.log
+
+# Optional: IDE folders
+.vscode/
+.idea/
+>>>>>>> 04700266dd1045859476e1bd9e879323c305dba4
