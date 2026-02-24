@@ -1,6 +1,5 @@
 baseURL = 'https://IoTUS-ETSII-US.github.io/'
 languageCode = 'es'
-<<<<<<< HEAD
 title = 'IOT'
 theme = 'papermod'
 
@@ -34,11 +33,7 @@ author = "Departamento de IOT"
     name = 'inscription'
     url = '/inscription'
     weight = 60
-=======
-title = 'IoTUS'
-theme = 'papermod'
 
 [params.label]
   icon = "/images/logo_transparent.png"
   iconHeight = 50
->>>>>>> 04700266dd1045859476e1bd9e879323c305dba4
