@@ -1,4 +1,4 @@
 baseURL = 'https://IoTUS-ETSII-US.github.io/'
-languageCode = 'en-us'
+languageCode = 'es'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'papermod'
