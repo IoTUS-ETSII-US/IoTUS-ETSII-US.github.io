@@ -36,4 +36,4 @@ author = "Departamento de IOT"
 
 [params.label]
   icon = "/images/logo_transparent.png"
-  iconHeight = 50
+  iconHeight = 45
