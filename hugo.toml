@@ -36,4 +36,24 @@ author = "Departamento de IOT"
 
 [params.label]
   icon = "/images/logo_transparent.png"
-  iconHeight = 45
+  # iconHeight = 45
+
+# Configuracion para TAILWIND
+
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'

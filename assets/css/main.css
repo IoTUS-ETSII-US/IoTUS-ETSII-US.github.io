@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@source "hugo_stats.json";
+
+@variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  --color-dark: rgb(29, 30, 32);
+  --color-light: rgba(255, 255, 255, 0.8);
+}
+
+@keyframes nav-deploy {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#menu li {
+  margin-inline-start: 0px !important;
+}
