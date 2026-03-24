@@ -43,7 +43,7 @@
     <div id="mobile-menu" class="hidden absolute w-full h-[calc(100vh-140%)] md:h-fit top-full animate-[nav-deploy_0.5s_ease-in-out] left-0 flex-col pr-14 md:p-0 md:contents z-40 bg-light dark:bg-neutral-700/50">
         <div class="w-full h-full bg-light dark:bg-dark md:content-center">
             {{- $currentPage := . }}
-            <div class="flex md:justify-around py-4 md:px-20 md:py-0 flex-col md:flex-row">
+            <div class="flex py-4 md:justify-end md:py-0 flex-col md:flex-row gap-6">
                 <nav class="w-full md:w-auto">
                     <ul id="menu" class="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8 text-lg md:text-base">
                     {{- range site.Menus.main }}
@@ -72,8 +72,10 @@
                     {{- end }}
                 </ul>
                 </nav>
+                <div id="divider" class="hidden md:flex border h-auto border-black dark:border-light"></div>
                 <div class="flex pt-10 md:pt-0 justify-center items-center">
-            {{- if (not site.Params.disableThemeToggle) }}
+                {{- if (not site.Params.disableThemeToggle) }}
+
             <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme" class="p-2 rounded-md">
                 <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
